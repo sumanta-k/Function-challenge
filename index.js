@@ -21,3 +21,16 @@ const minMax=(arr)=>{
     max:max};
 }
 console.log(minMax([1,2,3,4,5,6]));
+
+
+//challenge 3
+//iife
+// (function(length,width){
+//     const output = length*width;
+//     console.log(output);
+// })(5,6);
+
+((length,width)=>{
+    const output = length * width;
+    console.log(output);
+})(5,4);
